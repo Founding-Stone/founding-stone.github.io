@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    background: url('stone_texture.jpg') no-repeat center center/cover;
+    padding: 100px 20px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: #ffcc00;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #cc5500;
+}
+
+/* Gems Section */
+.gems-section {
+    padding: 50px 20px;
+}
+
+.gems-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gem {
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 180px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.ruby { background: #c0392b; }
+.sapphire { background: #2980b9; }
+.emerald { background: #27ae60; }
+.amethyst { background: #8e44ad; }
+.diamond { background: #ecf0f1; color: #2c3e50; }
+
+/* Mission & Story Sections */
+.mission, .story {
+    padding: 50px 20px;
+    background: #222;
+    margin: 30px 0;
+}
+
+/* Footer */
+.footer {
+    background: #111;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+.social-links a {
+    color: #ffcc00;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
