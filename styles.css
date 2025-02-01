@@ -61,6 +61,12 @@ body {
 .amethyst { background: #8e44ad; }
 .diamond { background: #ecf0f1; color: #2c3e50; }
 
+/* Opal Gradient */
+.opal {
+    background: linear-gradient(135deg, #f7f7f7, #d6d6d6, #f7f7f7);
+    color: #2c3e50;
+}
+
 /* Mission & Story Sections */
 .mission, .story {
     padding: 50px 20px;
